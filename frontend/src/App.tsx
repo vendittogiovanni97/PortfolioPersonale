@@ -1,6 +1,7 @@
 import { Container } from "@mui/material";
 import NavBar from "./components/NavBarComponents";
-import HomePages from "./pages/HomePage";
+import CardProject from "./components/CardProject";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         }}
       >
         <NavBar />
-        <HomePages />
+        <HomePage />
+        <CardProject />
       </Container>
     </>
   );
